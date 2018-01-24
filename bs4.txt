@@ -1,0 +1,13 @@
+for update npm = npm i -g npm
+
+mkdir bootstraps4 
+cd bootstrap4
+npm init -y
+npm i gulp browser-sync gulp-sass --save-dev
+npm i bootstrap jquery popper.js --save
+
+gulp 
+
+(Create an environmental variable called NODE_PATH
+Set it to: %AppData%\npm\node_modules or %AppData%\npm on windows 8-10
+Close CMD, and Re-Open to get the new ENV variables)
